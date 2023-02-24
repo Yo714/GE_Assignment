@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44552df0b08bc54d9a46bb26377002d, type: 3}
+  m_Name: Ak
+  m_EditorClassIdentifier: 
+  Type: 0
+  ItemEquipmentPrefab: {fileID: 4526598047977569319, guid: cf34a23576c34af4aae9692af1c45655, type: 3}
+  ItemName: Ak
+  ItemID: 1000
+  ItemSprite: {fileID: 21300000, guid: dccc05b8d01dde54f88f9910329187c2, type: 3}
+  SubType: 0
+  Damage: 3
+  CartridgeClip: 30
+  EffectiveRange: 400
+  FireAway: 1
+  RateOfFire: 10
+  BulletForce: 100
+  BulletPrefab: {fileID: 622700881387080401, guid: cf60a0a4f03a8af458ad2d76e6c76e04, type: 3}
+  CasingPrefab: {fileID: 1914150512531485919, guid: 06344233774e49c4ab7bc74557463d14, type: 3}
+  FOVForAim: 40
+  FOVForNormal: 65
+  FireSound: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  NoBulletSound: {fileID: 8300000, guid: f9ce3352943c16244a2e1504722c93c6, type: 3}
+  AimSound: {fileID: 8300000, guid: acaebc89b98b82142bd2b24edb6081e4, type: 3}
+  ReloadSoundLeft: {fileID: 8300000, guid: f7ce534a0633b9847910ba117e2245d1, type: 3}
+  ReloadSoundOut: {fileID: 8300000, guid: 5b907074256e36d41b92e89fb0790633, type: 3}
+  ReloadSoundIn: {fileID: 0}
+  DrawSound: {fileID: 8300000, guid: 2ae41e984ff1f3e4a840a1a46b6a8816, type: 3}

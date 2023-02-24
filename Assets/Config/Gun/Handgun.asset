@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44552df0b08bc54d9a46bb26377002d, type: 3}
+  m_Name: Handgun
+  m_EditorClassIdentifier: 
+  Type: 0
+  ItemEquipmentPrefab: {fileID: 8334541220112274756, guid: e4e1cc8fcdbb1c2498f8bbf2ac079d15, type: 3}
+  ItemName: Handgun
+  ItemID: 2000
+  ItemSprite: {fileID: 21300008, guid: dccc05b8d01dde54f88f9910329187c2, type: 3}
+  SubType: 1
+  Damage: 5
+  CartridgeClip: 7
+  EffectiveRange: 400
+  FireAway: 0
+  RateOfFire: 3
+  BulletForce: 300
+  BulletPrefab: {fileID: 622700881387080401, guid: cf60a0a4f03a8af458ad2d76e6c76e04, type: 3}
+  CasingPrefab: {fileID: 7657109948885595915, guid: 04a26fa702cfaf04686102801179171a, type: 3}
+  FOVForAim: 40
+  FOVForNormal: 65
+  FireSound: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  NoBulletSound: {fileID: 8300000, guid: f9ce3352943c16244a2e1504722c93c6, type: 3}
+  AimSound: {fileID: 8300000, guid: acaebc89b98b82142bd2b24edb6081e4, type: 3}
+  ReloadSoundLeft: {fileID: 8300000, guid: b0d51244fd32fc647960320540b32f66, type: 3}
+  ReloadSoundOut: {fileID: 8300000, guid: fee3a21f251a4914cabce25b13e7d2a8, type: 3}
+  ReloadSoundIn: {fileID: 0}
+  DrawSound: {fileID: 8300000, guid: 2ae41e984ff1f3e4a840a1a46b6a8816, type: 3}
