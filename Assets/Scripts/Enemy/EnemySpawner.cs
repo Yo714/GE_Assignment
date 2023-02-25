@@ -47,13 +47,5 @@ public class EnemySpawner : MonoBehaviour
             numEnemiesToSpawn = numEnemiesToSpawn + numEnemiesToSpawn / 2;
             SpawnEnemies();
         }
-
-        EventCenter.GetInstance().Trigger("Score", null, numEnemiesKilled, 0);
-    }
-
-    // Called when the player dies
-    public void OnPlayerDeath()
-    {
-        StopAllCoroutines();
     }
 }

@@ -50,7 +50,10 @@ public class ItemMgr : MonoBehaviour
     {
         if (collision.gameObject.tag == "Heal")
         {
-            playerMgr.health = playerMgr.health + 20;
+            if(playerMgr.health < 50)
+            {
+                playerMgr.health = playerMgr.health + 10;
+            }
             Destroy(collision.gameObject);
         }
     }

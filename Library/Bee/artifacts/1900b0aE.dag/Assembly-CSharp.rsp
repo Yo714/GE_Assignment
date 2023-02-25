@@ -357,10 +357,12 @@
 "Assets/Scripts/Data/ItemData.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemySpawner.cs"
-"Assets/Scripts/EventCenter.cs"
-"Assets/Scripts/Explode.cs"
+"Assets/Scripts/GameManager/EventCenter.cs"
+"Assets/Scripts/GameManager/ScoreManager.cs"
+"Assets/Scripts/GameManager/UIManager.cs"
 "Assets/Scripts/Gun/Bullet.cs"
 "Assets/Scripts/Gun/Casing.cs"
+"Assets/Scripts/Gun/Explode.cs"
 "Assets/Scripts/Gun/Gun.cs"
 "Assets/Scripts/Gun/Rocket.cs"
 "Assets/Scripts/Gun/Shotgun.cs"
@@ -372,7 +374,6 @@
 "Assets/Scripts/Player/MoveControl.cs"
 "Assets/Scripts/Player/PlayerMgr.cs"
 "Assets/Scripts/Singleton.cs"
-"Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
 /deterministic
