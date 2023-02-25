@@ -13,10 +13,12 @@ public class PlayerMgr : MonoBehaviour
 
     private bool isInvincible = false; // Tracks whether the player is invincible or not
 
+    private ScoreManager scoreManager;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        scoreManager = FindObjectOfType<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -60,7 +62,7 @@ public class PlayerMgr : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
-        EnemySpawner.instance.OnPlayerDeath();
-        SceneManager.LoadScene(0);
+        scoreManager.OnPlayerDeath();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
