@@ -63,7 +63,6 @@ public class MoveControl : MonoBehaviour
                     AudioClip ac = FootSound.GetSoundByTag(tag);
                     m_AudioSource.clip = ac;
                     m_AudioSource.Play();
-
                     StepTime = 0.0f;
                 }
             }

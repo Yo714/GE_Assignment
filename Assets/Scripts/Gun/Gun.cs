@@ -32,7 +32,8 @@ public class Gun : MonoBehaviour
 
     private LookControl lookcontrol;
 
-    private UIManager UIMgr;
+    [SerializeField]
+    protected UIManager UIMgr;
 
     void Awake()
     {
