@@ -89,6 +89,6 @@ public class PlayerMgr : MonoBehaviour
     {
         //Destroy(gameObject);
         scoreManager.OnPlayerDeath();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }
