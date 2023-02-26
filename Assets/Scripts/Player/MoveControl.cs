@@ -27,11 +27,9 @@ public class MoveControl : MonoBehaviour
     {
         PlayerCharacterController = GetComponent<CharacterController>();
         m_AudioSource = GetComponent<AudioSource>();
-
-        EventCenter.GetInstance().Regist("EquipmentItem", OnEquipmentItem);
     }
 
-    void OnEquipmentItem(object obj, int param1, int param2)
+    public void OnEquipmentItem(object obj)
     {
         AnimatorControl = ((GameObject)obj).GetComponent<Animator>();
     }

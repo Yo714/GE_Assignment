@@ -10,6 +10,14 @@ public class Shotgun : Gun
 
     private bool m_bFire = false;
 
+    private UIManager UIMgr;
+
+    private void Start()
+    {
+        UIMgr = FindObjectOfType<UIManager>();
+
+    }
+
     protected override void Reload()
     {
         if (GunAttr != null && !m_bReload)
@@ -44,7 +52,7 @@ public class Shotgun : Gun
                     yield return null;
                 }
                 BulletCount++;
-                EventCenter.GetInstance().Trigger("SetBullet", null, BulletCount, GunAttr.CartridgeClip);
+                UIMgr.OnSetBullet(BulletCount, GunAttr.CartridgeClip);
             }
 
             AnimatorControl.SetTrigger("ReloadOut");
@@ -92,7 +100,7 @@ public class Shotgun : Gun
                 Play(GunAttr.NoBulletSound);
             }
             m_bFire = true;
-            EventCenter.GetInstance().Trigger("SetBullet", null, BulletCount, GunAttr.CartridgeClip);
+            UIMgr.OnSetBullet(BulletCount, GunAttr.CartridgeClip);
             StartCoroutine(PlayFire());
         }
     }

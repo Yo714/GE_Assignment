@@ -15,6 +15,8 @@ public class EnemySpawner : MonoBehaviour
 
     private int numEnemiesKilled = 0;
 
+    private UIManager UIMgr;
+
     private void Awake()
     {
         instance = this;
@@ -22,7 +24,13 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
+        UIMgr = FindObjectOfType<UIManager>();
         SpawnEnemies();
+    }
+
+    private void Update()
+    {
+        UIMgr.OnEnemyNum(numEnemiesAlive);
     }
 
     public void SpawnEnemies()
@@ -42,9 +50,15 @@ public class EnemySpawner : MonoBehaviour
     {
         numEnemiesAlive--;
         numEnemiesKilled++;
+        
         if (numEnemiesAlive <= 0)
         {
             numEnemiesToSpawn = numEnemiesToSpawn + numEnemiesToSpawn / 2;
+            PlayerMgr playerMgr = FindObjectOfType<PlayerMgr>();
+            if(playerMgr != null)
+            {
+                playerMgr.currentHealth = playerMgr.currentHealth + 10;
+            }
             SpawnEnemies();
         }
     }

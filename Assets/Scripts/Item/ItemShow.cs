@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemShow: MonoBehaviour
+public class ItemShow : MonoBehaviour
 {
     public float RotateSpeed = 100;
 
@@ -10,18 +10,19 @@ public class ItemShow: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventCenter.GetInstance().Regist("InSight", OnInSight);
-        EventCenter.GetInstance().Regist("OutSight", OnOutSight);
     }
 
-    void OnOutSight(object obj, int param1, int param2)
+    public void OnOutSight(object obj)
     {
-        if((GameObject)obj == gameObject){
+        if (gameObject == null) return;
+
+        if ((GameObject)obj == gameObject)
+        {
             m_bInSight = false;
         }
     }
 
-    void OnInSight(object obj, int param1, int param2)
+    public void OnInSight(object obj)
     {
         m_bInSight = ((GameObject)obj == gameObject);
     }

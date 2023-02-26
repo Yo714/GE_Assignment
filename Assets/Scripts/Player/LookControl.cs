@@ -24,10 +24,13 @@ public class LookControl : MonoBehaviour
     private Vector2 currentRecoil;
 
     private UIManager UIMgr;
+    private ItemMgr itemMgr;
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        UIMgr = FindObjectOfType<UIManager>();
+        itemMgr = FindObjectOfType<ItemMgr>();
     }
 
     // Update is called once per frame
@@ -41,11 +44,11 @@ public class LookControl : MonoBehaviour
 
     private void PickUp_Update()
     {
-        if(Input.GetKeyDown(KeyCode.F) && m_bLastTarget != null)
+        if (Input.GetKeyDown(KeyCode.F) && m_bLastTarget != null)
         {
             if (m_bLastTarget.tag == "Gun")
             {
-                EventCenter.GetInstance().Trigger("PickUpItem", m_bLastTarget, 0, 0);
+                itemMgr.OnPickUpItem(m_bLastTarget);
             }
         }
     }
@@ -56,17 +59,30 @@ public class LookControl : MonoBehaviour
         //check item in the player view or not
         if (Physics.Raycast(transform.position, transform.forward, out hit, PickUpDistance, PickUpMack))
         {
-            if(m_bLastTarget != hit.collider.gameObject)
+            if (hit.collider != null && hit.collider.gameObject != null)
             {
-                m_bLastTarget = hit.collider.gameObject;
-                EventCenter.GetInstance().Trigger("InSight", m_bLastTarget, 0, 0);
+                if (m_bLastTarget != hit.collider.gameObject)
+                {
+                    m_bLastTarget = hit.collider.gameObject;
+                    ItemShow itemShow = m_bLastTarget.GetComponent<ItemShow>();
+                    if (itemShow != null)
+                    {
+                        itemShow.OnInSight(m_bLastTarget);
+                        UIMgr.OnInSight(m_bLastTarget);
+                    }
+                }
             }
         }
         else
         {
             if (m_bLastTarget != null)
             {
-                EventCenter.GetInstance().Trigger("OutSight", m_bLastTarget, 0, 0);
+                ItemShow itemShow = m_bLastTarget.GetComponent<ItemShow>();
+                if (itemShow != null)
+                {
+                    itemShow.OnOutSight(m_bLastTarget);
+                    UIMgr.OnOutSight();
+                }
                 m_bLastTarget = null;
             }
         }
