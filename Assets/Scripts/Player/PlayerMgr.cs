@@ -63,4 +63,12 @@ public class PlayerMgr : MonoBehaviour
         EnemySpawner.instance.OnPlayerDeath();
         SceneManager.LoadScene(0);
     }
+
+    void OnTriggerEnter(Collider enemy)
+    {
+        if(enemy.tag == "Enemy")
+        {
+            TakeDamage(1);
+        }
+    }
 }
