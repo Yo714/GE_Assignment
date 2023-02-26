@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 33775424}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 38674436}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 51938160}
   m_Layer: 0
   m_Name: Column_01 (2)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -604,15 +604,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -654,9 +654,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_Name
       value: Floor_Normal_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
+      propertyPath: m_TagString
+      value: Metal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
@@ -706,7 +714,7 @@ GameObject:
   - component: {fileID: 138439954}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -866,7 +874,7 @@ GameObject:
   - component: {fileID: 217088374}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -963,7 +971,7 @@ GameObject:
   - component: {fileID: 222604342}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1172,7 +1180,7 @@ GameObject:
   - component: {fileID: 294482951}
   m_Layer: 0
   m_Name: Floor_Normal_01 (3)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1364,7 +1372,7 @@ GameObject:
   - component: {fileID: 413690706}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1460,7 +1468,7 @@ GameObject:
   - component: {fileID: 428806697}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1643,7 +1651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &493055816
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1787,7 +1795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &584114426
 Animator:
   serializedVersion: 4
@@ -1878,12 +1886,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584114425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 3.4, z: 38.7}
+  m_LocalPosition: {x: -7.87, y: 3.4, z: -8.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &595212159
 GameObject:
@@ -1899,7 +1907,7 @@ GameObject:
   - component: {fileID: 595212161}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2060,7 +2068,7 @@ GameObject:
   - component: {fileID: 630184170}
   m_Layer: 0
   m_Name: Column_01 (1)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2300,7 +2308,7 @@ GameObject:
   - component: {fileID: 756315532}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2397,7 +2405,7 @@ GameObject:
   - component: {fileID: 756863063}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2523,7 +2531,7 @@ GameObject:
   - component: {fileID: 774523741}
   m_Layer: 0
   m_Name: Floor_Half_01 (1)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2594,7 +2602,7 @@ GameObject:
   - component: {fileID: 833419921}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2909,7 +2917,7 @@ GameObject:
   - component: {fileID: 942085898}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3160,7 +3168,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1244497126}
   - {fileID: 1805054116}
   m_Father: {fileID: 1137352499}
   m_RootOrder: 0
@@ -3249,7 +3256,7 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -3278,27 +3285,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalScale.y
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalScale.z
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -324.6
+      value: -15.866
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.4
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -382.71027
+      value: -17.167
       objectReference: {fileID: 0}
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3327,6 +3334,10 @@ PrefabInstance:
     - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633456696438949989, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081c7f80590af9245bdee2a20ca62266, type: 3}
@@ -3408,7 +3419,7 @@ GameObject:
   - component: {fileID: 1054614009}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3633,7 +3644,7 @@ GameObject:
   - component: {fileID: 1137209112}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3787,7 +3798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd599fe001200da4abd943796bce1f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArmPos: {fileID: 1244497126}
+  AimPos: {fileID: 0}
   playerMgr: {fileID: 1137352493}
   UIMgr: {fileID: 1137352495}
   EyesCamera: {fileID: 973487525}
@@ -3935,11 +3946,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c58c169219a70f3488edd44054a8bf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WalkSpeed: 140.47
-  RunSpeed: 200
-  Gravity: 180
+  WalkSpeed: 3
+  RunSpeed: 6
+  Gravity: 9.8
   Velocity: {x: 0, y: 0, z: 0}
-  JumpHeight: 100
+  JumpHeight: 1.2
   PlayerCharacterController: {fileID: 0}
   StandStepTime: 0.7
   FootSound: {fileID: 11400000, guid: adfe6484037aaeb4c93b903a89cfadde, type: 2}
@@ -3951,108 +3962,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137352491}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -258.45328, y: 19.72885, z: -301.88757}
-  m_LocalScale: {x: 86.97247, y: 7.0701227, z: 78.70006}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: -0, y: -0.9952611, z: -0, w: 0.09723912}
+  m_LocalPosition: {x: -14.92, y: 0, z: -12.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 973487522}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1155349331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1155349335}
-  - component: {fileID: 1155349334}
-  - component: {fileID: 1155349333}
-  - component: {fileID: 1155349332}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!81 &1155349332
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155349331}
-  m_Enabled: 1
---- !u!124 &1155349333
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155349331}
-  m_Enabled: 1
---- !u!20 &1155349334
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155349331}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.1
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: 3
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1155349335
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155349331}
-  m_LocalRotation: {x: 0, y: 0.4422886, z: 0, w: 0.89687276}
-  m_LocalPosition: {x: 7.24, y: 0.75, z: -15.62}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 52.5, z: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: -168.84, z: 0}
 --- !u!1 &1157175958
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,7 +4081,7 @@ GameObject:
   - component: {fileID: 1174960263}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4354,7 +4272,7 @@ GameObject:
   - component: {fileID: 1183312348}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4452,7 +4370,7 @@ GameObject:
   - component: {fileID: 1220522620}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4488,8 +4406,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.351904, z: 1}
-  m_Center: {x: 0, y: 2.175952, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1220522622
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4548,12 +4466,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220522619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1367, y: 214, z: -777}
-  m_LocalScale: {x: 272.2272, y: 3.8275633, z: 319.57782}
+  m_LocalPosition: {x: -29.970001, y: 0, z: -68.16}
+  m_LocalScale: {x: 12, y: 0.16872215, z: 14.087254}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1231115678
 GameObject:
@@ -4570,7 +4488,7 @@ GameObject:
   - component: {fileID: 1231115679}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4606,8 +4524,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 4.890839, z: 1}
-  m_Center: {x: 0, y: 1.9454194, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1231115681
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4666,12 +4584,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231115678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1367, y: 600, z: -1584}
-  m_LocalScale: {x: 272.2272, y: 3.8275633, z: 319.57782}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -29.97, y: 0, z: -33.96}
+  m_LocalScale: {x: 12, y: 0.16872215, z: 14.087254}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240173945
 GameObject:
@@ -4687,7 +4605,7 @@ GameObject:
   - component: {fileID: 1240173947}
   m_Layer: 0
   m_Name: Floor_Normal_01 (5)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4784,7 +4702,7 @@ GameObject:
   - component: {fileID: 1242733166}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4867,37 +4785,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242733164}
   m_Mesh: {fileID: 4300000, guid: f92961f1fb9b04dff92f9d52bdc72230, type: 3}
---- !u!1 &1244497125
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1244497126}
-  m_Layer: 0
-  m_Name: AimPos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1244497126
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244497125}
-  m_LocalRotation: {x: 0.00000008940697, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.08557577, z: 0.17866264}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 973487522}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248747793
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,7 +4799,7 @@ GameObject:
   - component: {fileID: 1248747795}
   m_Layer: 0
   m_Name: Floor_Normal_01 (4)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5041,7 +4928,7 @@ GameObject:
   - component: {fileID: 1261414721}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5170,7 +5057,7 @@ GameObject:
   - component: {fileID: 1303473547}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5268,7 +5155,7 @@ GameObject:
   - component: {fileID: 1366276537}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5351,12 +5238,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366276531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -656, y: 642, z: -777}
-  m_LocalScale: {x: 272.2272, y: 3.8275633, z: 319.57782}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -60.36, y: 0, z: -68.13}
+  m_LocalScale: {x: 12, y: 0.16872215, z: 14.087254}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1366276537
 BoxCollider:
@@ -5369,8 +5256,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.640343, z: 0.99999994}
-  m_Center: {x: 0, y: 2.3201714, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1387335872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,7 +5272,7 @@ GameObject:
   - component: {fileID: 1387335874}
   m_Layer: 0
   m_Name: Floor_Normal_01 (2)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5606,7 +5493,7 @@ GameObject:
   - component: {fileID: 1413223483}
   m_Layer: 0
   m_Name: Floor_Normal_01 (1)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5734,27 +5621,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -414
+      value: -19.548
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 37.7
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -382.71027
+      value: -17.167
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5783,6 +5670,10 @@ PrefabInstance:
     - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996208299204682581, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3996208299205181301, guid: 225e52eeb57988340b2979e41a36f81c, type: 3}
       propertyPath: m_Name
@@ -5891,27 +5782,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 100.318756
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -235.5
+      value: -12.02
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.9
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -365.6
+      value: -17.167
       objectReference: {fileID: 0}
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5940,6 +5831,10 @@ PrefabInstance:
     - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763241133154274326, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a0efedc51a33754b928496f4b7718c3, type: 3}
@@ -6099,7 +5994,7 @@ GameObject:
   - component: {fileID: 1531223305}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6261,7 +6156,7 @@ GameObject:
   - component: {fileID: 1576152734}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6450,7 +6345,7 @@ GameObject:
   - component: {fileID: 1600646546}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6731,7 +6626,7 @@ GameObject:
   - component: {fileID: 1634133796}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6828,7 +6723,7 @@ GameObject:
   - component: {fileID: 1635226047}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6925,7 +6820,7 @@ GameObject:
   - component: {fileID: 1635837460}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7085,7 +6980,7 @@ GameObject:
   - component: {fileID: 1716928041}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7181,15 +7076,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7231,9 +7126,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_Name
       value: Floor_Normal_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
+      propertyPath: m_TagString
+      value: Metal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
@@ -7301,14 +7204,14 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 10000
-  field of view: 108
+  far clip plane: 1000
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 119
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -7333,7 +7236,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 973487522}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1817359480
 GameObject:
@@ -7349,7 +7252,7 @@ GameObject:
   - component: {fileID: 1817359482}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7446,7 +7349,7 @@ GameObject:
   - component: {fileID: 1838006184}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7616,8 +7519,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 69.71763, y: 11.39798, z: 79.89864}
-  m_BoxOffset: {x: 17.510052, y: -0.69898987, z: 22.367535}
+  m_BoxSize: {x: 90.58297, y: 54.379845, z: 102.688736}
+  m_BoxOffset: {x: 0.8514824, y: 1.8157825, z: -36.380806}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -7642,7 +7545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892895690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 3, z: -14.7}
+  m_LocalPosition: {x: -46.260376, y: 25.06838, z: -14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7663,7 +7566,7 @@ GameObject:
   - component: {fileID: 1922093627}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7760,7 +7663,7 @@ GameObject:
   - component: {fileID: 1948283322}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7857,7 +7760,7 @@ GameObject:
   - component: {fileID: 1950690514}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7959,7 +7862,7 @@ GameObject:
   - component: {fileID: 2016322523}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8156,7 +8059,7 @@ GameObject:
   - component: {fileID: 2115438660}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8192,8 +8095,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.7877717, z: 1}
-  m_Center: {x: 0, y: 2.3938851, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2115438662
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8252,12 +8155,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115438659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -656, y: 12.7, z: -1584}
-  m_LocalScale: {x: 272.2272, y: 3.8275633, z: 319.57782}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -59.95, y: 0.05, z: -33.96}
+  m_LocalScale: {x: 12, y: 0.16872215, z: 14.087254}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1353721790975457596
 PrefabInstance:
@@ -8272,15 +8175,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.5216217
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8322,9 +8225,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
       propertyPath: m_Name
       value: Floor_Normal_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
+      propertyPath: m_TagString
+      value: Metal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a32579b8da76648b52ea3478773a0b, type: 3}
@@ -8381,7 +8292,7 @@ GameObject:
   - component: {fileID: 7265327395016540543}
   m_Layer: 0
   m_Name: Floor_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14541,9 +14452,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7303967108499881876}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 56, y: 0, z: 36}
-  m_LocalScale: {x: 71.370056, y: 214.75821, z: 80.87421}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 9.02724, z: 3.3995013}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7301902449476687394}
   - {fileID: 7301964767534766348}
@@ -14551,7 +14462,7 @@ Transform:
   - {fileID: 7298814912247888734}
   - {fileID: 774523741}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &7298680248507770952
 Transform:
@@ -18303,7 +18214,7 @@ GameObject:
   - component: {fileID: 7328118720562977762}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18319,10 +18230,10 @@ GameObject:
   - component: {fileID: 7298887754783998648}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7302886034230641546
 GameObject:
@@ -18335,10 +18246,10 @@ GameObject:
   - component: {fileID: 7301740636141335382}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7302890029794618094
 GameObject:
@@ -18351,7 +18262,7 @@ GameObject:
   - component: {fileID: 7298663955594892712}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18369,7 +18280,7 @@ GameObject:
   - component: {fileID: 7280922985942481442}
   m_Layer: 0
   m_Name: Roof_Light_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18387,7 +18298,7 @@ GameObject:
   - component: {fileID: 7282226211331699736}
   m_Layer: 0
   m_Name: Roof_Light_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18406,7 +18317,7 @@ GameObject:
   - component: {fileID: 7328362421424303016}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18425,10 +18336,10 @@ GameObject:
   - component: {fileID: 7327986684031514656}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7302913770297313180
 GameObject:
@@ -18444,7 +18355,7 @@ GameObject:
   - component: {fileID: 7328455144532660304}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18460,10 +18371,10 @@ GameObject:
   - component: {fileID: 7301772687560064472}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7302920169883902802
 GameObject:
@@ -18479,7 +18390,7 @@ GameObject:
   - component: {fileID: 7328149234809156484}
   m_Layer: 0
   m_Name: Wall_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18511,10 +18422,10 @@ GameObject:
   - component: {fileID: 7298967963630038516}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7302938238258871704
 GameObject:
@@ -18529,7 +18440,7 @@ GameObject:
   - component: {fileID: 7281998231928669072}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18545,7 +18456,7 @@ GameObject:
   - component: {fileID: 7298977628481320238}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18564,10 +18475,10 @@ GameObject:
   - component: {fileID: 7331289131022048606}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7302972678432840266
 GameObject:
@@ -18628,7 +18539,7 @@ GameObject:
   - component: {fileID: 7301826319522128576}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18644,10 +18555,10 @@ GameObject:
   - component: {fileID: 7299138120708393328}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303008936656695030
 GameObject:
@@ -18663,10 +18574,10 @@ GameObject:
   - component: {fileID: 7328397618533636320}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303715388008902108
 GameObject:
@@ -18698,7 +18609,7 @@ GameObject:
   - component: {fileID: 7328266530239016866}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18717,7 +18628,7 @@ GameObject:
   - component: {fileID: 7329991090087658516}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18733,10 +18644,10 @@ GameObject:
   - component: {fileID: 7299193737252420470}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303724276671696504
 GameObject:
@@ -18800,7 +18711,7 @@ GameObject:
   - component: {fileID: 7331613170935691986}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18816,10 +18727,10 @@ GameObject:
   - component: {fileID: 7301699003995846316}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303734642977401824
 GameObject:
@@ -18835,10 +18746,10 @@ GameObject:
   - component: {fileID: 7327560337008695154}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303736633292473358
 GameObject:
@@ -18853,7 +18764,7 @@ GameObject:
   - component: {fileID: 7281832027773346470}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18869,7 +18780,7 @@ GameObject:
   - component: {fileID: 7301554748809082084}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18904,7 +18815,7 @@ GameObject:
   - component: {fileID: 7331129346083942370}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18920,7 +18831,7 @@ GameObject:
   - component: {fileID: 7298993177295117810}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18936,10 +18847,10 @@ GameObject:
   - component: {fileID: 7301881686998164506}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303756748812546462
 GameObject:
@@ -18955,7 +18866,7 @@ GameObject:
   - component: {fileID: 7331038288859222174}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18990,10 +18901,10 @@ GameObject:
   - component: {fileID: 7328242890616812476}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303763469736015062
 GameObject:
@@ -19009,7 +18920,7 @@ GameObject:
   - component: {fileID: 7328120019682483518}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19028,7 +18939,7 @@ GameObject:
   - component: {fileID: 7331185232007544630}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19047,7 +18958,7 @@ GameObject:
   - component: {fileID: 7331077932422817746}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19066,7 +18977,7 @@ GameObject:
   - component: {fileID: 7328270764471744820}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19085,7 +18996,7 @@ GameObject:
   - component: {fileID: 7327615964614812966}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19104,7 +19015,7 @@ GameObject:
   - component: {fileID: 7328113419831645208}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19139,7 +19050,7 @@ GameObject:
   - component: {fileID: 7331130714835856118}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19158,7 +19069,7 @@ GameObject:
   - component: {fileID: 7327947604607162408}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19174,10 +19085,10 @@ GameObject:
   - component: {fileID: 7301521663561104396}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303800406196194156
 GameObject:
@@ -19190,10 +19101,10 @@ GameObject:
   - component: {fileID: 7298815651110039128}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303807040856443134
 GameObject:
@@ -19206,10 +19117,10 @@ GameObject:
   - component: {fileID: 7301964767534766348}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303809715572906578
 GameObject:
@@ -19238,7 +19149,7 @@ GameObject:
   - component: {fileID: 7299093887410600470}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19270,10 +19181,10 @@ GameObject:
   - component: {fileID: 7301866253315746086}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303820098753040156
 GameObject:
@@ -19336,7 +19247,7 @@ GameObject:
   - component: {fileID: 7280532750368978492}
   m_Layer: 0
   m_Name: Roof_Light_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19352,7 +19263,7 @@ GameObject:
   - component: {fileID: 7301895512886426504}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19368,7 +19279,7 @@ GameObject:
   - component: {fileID: 7298851942087065742}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19387,10 +19298,10 @@ GameObject:
   - component: {fileID: 7327992482232918300}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303845897808528162
 GameObject:
@@ -19406,10 +19317,10 @@ GameObject:
   - component: {fileID: 7331271856060100092}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303849673402826554
 GameObject:
@@ -19425,7 +19336,7 @@ GameObject:
   - component: {fileID: 7327552956574426982}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19460,7 +19371,7 @@ GameObject:
   - component: {fileID: 7331082707976431584}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19508,7 +19419,7 @@ GameObject:
   - component: {fileID: 7298884346092420440}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19524,10 +19435,10 @@ GameObject:
   - component: {fileID: 7298819532404222410}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303876812493413868
 GameObject:
@@ -19540,7 +19451,7 @@ GameObject:
   - component: {fileID: 7301545964507029774}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19572,7 +19483,7 @@ GameObject:
   - component: {fileID: 7301761073475352470}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19604,7 +19515,7 @@ GameObject:
   - component: {fileID: 7298814912247888734}
   m_Layer: 0
   m_Name: Wall_Door_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19620,10 +19531,10 @@ GameObject:
   - component: {fileID: 7298931062374896884}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303910720089300124
 GameObject:
@@ -19636,10 +19547,10 @@ GameObject:
   - component: {fileID: 7298847255242809398}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303926131788592922
 GameObject:
@@ -19655,10 +19566,10 @@ GameObject:
   - component: {fileID: 7327544971989803208}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303926145188432660
 GameObject:
@@ -19674,7 +19585,7 @@ GameObject:
   - component: {fileID: 7327968296968859340}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19708,7 +19619,7 @@ GameObject:
   - component: {fileID: 7281929469203725550}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19727,7 +19638,7 @@ GameObject:
   - component: {fileID: 7330805826735612544}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19746,7 +19657,7 @@ GameObject:
   - component: {fileID: 7330023150419027724}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19764,7 +19675,7 @@ GameObject:
   - component: {fileID: 7281857169770951646}
   m_Layer: 0
   m_Name: Roof_Light_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19783,7 +19694,7 @@ GameObject:
   - component: {fileID: 7331082728485262104}
   m_Layer: 0
   m_Name: Roof_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19818,7 +19729,7 @@ GameObject:
   - component: {fileID: 7328143418808025270}
   m_Layer: 0
   m_Name: Roof_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19853,7 +19764,7 @@ GameObject:
   - component: {fileID: 7328190734911169992}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19885,10 +19796,10 @@ GameObject:
   - component: {fileID: 7298837772863937694}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303967108499881876
 GameObject:
@@ -19901,7 +19812,7 @@ GameObject:
   - component: {fileID: 7298676320434672262}
   m_Layer: 0
   m_Name: Room_03
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19920,10 +19831,10 @@ GameObject:
   - component: {fileID: 7331289233740304154}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303977106522768470
 GameObject:
@@ -19968,10 +19879,10 @@ GameObject:
   - component: {fileID: 7299087533789490008}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7303985972868002710
 GameObject:
@@ -20020,7 +19931,7 @@ GameObject:
   - component: {fileID: 7328266771355698440}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20055,7 +19966,7 @@ GameObject:
   - component: {fileID: 7328466868569436744}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20074,10 +19985,10 @@ GameObject:
   - component: {fileID: 7331269642978700870}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304200215724122628
 GameObject:
@@ -20109,7 +20020,7 @@ GameObject:
   - component: {fileID: 7327556081182856344}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20128,7 +20039,7 @@ GameObject:
   - component: {fileID: 7331228414451748564}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20147,10 +20058,10 @@ GameObject:
   - component: {fileID: 7331244275080114256}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304278576088656952
 GameObject:
@@ -20182,7 +20093,7 @@ GameObject:
   - component: {fileID: 7327551531695353970}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20201,7 +20112,7 @@ GameObject:
   - component: {fileID: 7331148447648835076}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20233,10 +20144,10 @@ GameObject:
   - component: {fileID: 7298969729471459424}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304295213936985156
 GameObject:
@@ -20251,7 +20162,7 @@ GameObject:
   - component: {fileID: 7280408124209458762}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20267,7 +20178,7 @@ GameObject:
   - component: {fileID: 7299075333306378708}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20283,7 +20194,7 @@ GameObject:
   - component: {fileID: 7301475563443119956}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20315,7 +20226,7 @@ GameObject:
   - component: {fileID: 7298701792321339382}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20334,10 +20245,10 @@ GameObject:
   - component: {fileID: 7327622731295996430}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304309195426619648
 GameObject:
@@ -20350,7 +20261,7 @@ GameObject:
   - component: {fileID: 7298866622473284502}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20369,7 +20280,7 @@ GameObject:
   - component: {fileID: 7328056717072562876}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20404,7 +20315,7 @@ GameObject:
   - component: {fileID: 7327547919437405026}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20420,10 +20331,10 @@ GameObject:
   - component: {fileID: 7301987913205915278}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304334694469336758
 GameObject:
@@ -20439,10 +20350,10 @@ GameObject:
   - component: {fileID: 7331116220641955506}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304338510433472242
 GameObject:
@@ -20458,7 +20369,7 @@ GameObject:
   - component: {fileID: 7330805356234433356}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20477,7 +20388,7 @@ GameObject:
   - component: {fileID: 7328432127212594990}
   m_Layer: 0
   m_Name: Wall_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20496,7 +20407,7 @@ GameObject:
   - component: {fileID: 7328402856344427452}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20531,7 +20442,7 @@ GameObject:
   - component: {fileID: 7327517633588552364}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20547,10 +20458,10 @@ GameObject:
   - component: {fileID: 7299090936576584720}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304352530444288062
 GameObject:
@@ -20579,7 +20490,7 @@ GameObject:
   - component: {fileID: 7299115002478505386}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20598,10 +20509,10 @@ GameObject:
   - component: {fileID: 7328176058818263188}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304358540236293134
 GameObject:
@@ -20630,10 +20541,10 @@ GameObject:
   - component: {fileID: 7298897971594525374}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304382910296843212
 GameObject:
@@ -20649,7 +20560,7 @@ GameObject:
   - component: {fileID: 7329893473508617600}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20700,10 +20611,10 @@ GameObject:
   - component: {fileID: 7327497690406512506}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304397026620305060
 GameObject:
@@ -20716,10 +20627,10 @@ GameObject:
   - component: {fileID: 7298918687887776206}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304403857530807644
 GameObject:
@@ -20751,7 +20662,7 @@ GameObject:
   - component: {fileID: 7327576336235643840}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20785,7 +20696,7 @@ GameObject:
   - component: {fileID: 7282019669661403754}
   m_Layer: 0
   m_Name: Roof_Light_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20804,10 +20715,10 @@ GameObject:
   - component: {fileID: 7328002703181762578}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304429447717966744
 GameObject:
@@ -20839,7 +20750,7 @@ GameObject:
   - component: {fileID: 7327524781966927980}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20858,7 +20769,7 @@ GameObject:
   - component: {fileID: 7331173461184374106}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20893,7 +20804,7 @@ GameObject:
   - component: {fileID: 7331094355472779284}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20911,7 +20822,7 @@ GameObject:
   - component: {fileID: 7280352700797137930}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20930,10 +20841,10 @@ GameObject:
   - component: {fileID: 7328194449501424988}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304452923182766796
 GameObject:
@@ -20997,7 +20908,7 @@ GameObject:
   - component: {fileID: 7328392404301344290}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21015,7 +20926,7 @@ GameObject:
   - component: {fileID: 7280246736917934808}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21034,7 +20945,7 @@ GameObject:
   - component: {fileID: 7328175641847733788}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21069,7 +20980,7 @@ GameObject:
   - component: {fileID: 7327972397153426448}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21085,10 +20996,10 @@ GameObject:
   - component: {fileID: 7301713492883596982}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304495094482081610
 GameObject:
@@ -21104,7 +21015,7 @@ GameObject:
   - component: {fileID: 7328015550406452608}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21123,7 +21034,7 @@ GameObject:
   - component: {fileID: 7328297293074190590}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21159,7 +21070,7 @@ GameObject:
   - component: {fileID: 7328068558411157066}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21178,7 +21089,7 @@ GameObject:
   - component: {fileID: 7331086382740785526}
   m_Layer: 0
   m_Name: Wall_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21197,7 +21108,7 @@ GameObject:
   - component: {fileID: 7331063524430810532}
   m_Layer: 0
   m_Name: Roof_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21213,10 +21124,10 @@ GameObject:
   - component: {fileID: 7299096005654726106}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304512114472320154
 GameObject:
@@ -21229,10 +21140,10 @@ GameObject:
   - component: {fileID: 7298788894147152176}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304515425290712472
 GameObject:
@@ -21261,10 +21172,10 @@ GameObject:
   - component: {fileID: 7299194023947661522}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304524755686314736
 GameObject:
@@ -21280,10 +21191,10 @@ GameObject:
   - component: {fileID: 7328473680348533044}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304526162478391376
 GameObject:
@@ -21299,10 +21210,10 @@ GameObject:
   - component: {fileID: 7328383394987672128}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304528770975039706
 GameObject:
@@ -21317,7 +21228,7 @@ GameObject:
   - component: {fileID: 7280626419207683966}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21333,10 +21244,10 @@ GameObject:
   - component: {fileID: 7298884657461243058}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304530517311968790
 GameObject:
@@ -21351,7 +21262,7 @@ GameObject:
   - component: {fileID: 7281017902499829864}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21370,7 +21281,7 @@ GameObject:
   - component: {fileID: 7328283048863695700}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21388,7 +21299,7 @@ GameObject:
   - component: {fileID: 7280151515203647130}
   m_Layer: 0
   m_Name: Roof_Light_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21406,7 +21317,7 @@ GameObject:
   - component: {fileID: 7282202998971850306}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21425,7 +21336,7 @@ GameObject:
   - component: {fileID: 7328129849687431798}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21444,7 +21355,7 @@ GameObject:
   - component: {fileID: 7328343742930585834}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21460,10 +21371,10 @@ GameObject:
   - component: {fileID: 7301487776770503384}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304572662297369084
 GameObject:
@@ -21476,10 +21387,10 @@ GameObject:
   - component: {fileID: 7301839818331749452}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304578822742990068
 GameObject:
@@ -21495,7 +21406,7 @@ GameObject:
   - component: {fileID: 7328340587553275106}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21514,10 +21425,10 @@ GameObject:
   - component: {fileID: 7328452526026335568}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304582113597173436
 GameObject:
@@ -21533,10 +21444,10 @@ GameObject:
   - component: {fileID: 7328353712093701788}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304593156754970550
 GameObject:
@@ -21552,7 +21463,7 @@ GameObject:
   - component: {fileID: 7330913288454778670}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21571,7 +21482,7 @@ GameObject:
   - component: {fileID: 7331119273449605496}
   m_Layer: 0
   m_Name: Roof_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21587,10 +21498,10 @@ GameObject:
   - component: {fileID: 7299131469781770500}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304597394385321258
 GameObject:
@@ -21606,10 +21517,10 @@ GameObject:
   - component: {fileID: 7328044190723858188}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304601359949956774
 GameObject:
@@ -21625,10 +21536,10 @@ GameObject:
   - component: {fileID: 7328092842134978982}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304602012877548940
 GameObject:
@@ -21644,7 +21555,7 @@ GameObject:
   - component: {fileID: 7330999528403273226}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21679,7 +21590,7 @@ GameObject:
   - component: {fileID: 7329960038036019870}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21698,10 +21609,10 @@ GameObject:
   - component: {fileID: 7331068889452155492}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304644599240106528
 GameObject:
@@ -21714,10 +21625,10 @@ GameObject:
   - component: {fileID: 7299098405084004918}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304647086264844068
 GameObject:
@@ -21762,10 +21673,10 @@ GameObject:
   - component: {fileID: 7299115866768860120}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304687380942068132
 GameObject:
@@ -21781,10 +21692,10 @@ GameObject:
   - component: {fileID: 7327601742926298700}
   m_Layer: 0
   m_Name: Floor_Square_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304694991414031360
 GameObject:
@@ -21800,7 +21711,7 @@ GameObject:
   - component: {fileID: 7331237051692240470}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21819,10 +21730,10 @@ GameObject:
   - component: {fileID: 7331058847811278394}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304702928084348182
 GameObject:
@@ -21838,10 +21749,10 @@ GameObject:
   - component: {fileID: 7331201507877468526}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304705334586516672
 GameObject:
@@ -21857,7 +21768,7 @@ GameObject:
   - component: {fileID: 7330755469470565164}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21892,7 +21803,7 @@ GameObject:
   - component: {fileID: 7331767081175172080}
   m_Layer: 0
   m_Name: Wall_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21911,7 +21822,7 @@ GameObject:
   - component: {fileID: 7327605384651018970}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21962,7 +21873,7 @@ GameObject:
   - component: {fileID: 7331281844482212354}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21978,7 +21889,7 @@ GameObject:
   - component: {fileID: 7301902449476687394}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21997,10 +21908,10 @@ GameObject:
   - component: {fileID: 7331164737194681716}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304737542425383812
 GameObject:
@@ -22016,10 +21927,10 @@ GameObject:
   - component: {fileID: 7327510045250300868}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304738419756450188
 GameObject:
@@ -22032,10 +21943,10 @@ GameObject:
   - component: {fileID: 7298965747035180182}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304747717316196018
 GameObject:
@@ -22051,7 +21962,7 @@ GameObject:
   - component: {fileID: 7328216877854728018}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22118,7 +22029,7 @@ GameObject:
   - component: {fileID: 7328408992441448064}
   m_Layer: 0
   m_Name: Roof_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22152,7 +22063,7 @@ GameObject:
   - component: {fileID: 7280362552752674996}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22170,7 +22081,7 @@ GameObject:
   - component: {fileID: 7280186984932037664}
   m_Layer: 0
   m_Name: Wall_Top_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22186,10 +22097,10 @@ GameObject:
   - component: {fileID: 7301478999938540222}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304777494747238494
 GameObject:
@@ -22205,10 +22116,10 @@ GameObject:
   - component: {fileID: 7331197950312178392}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304783166322444622
 GameObject:
@@ -22224,7 +22135,7 @@ GameObject:
   - component: {fileID: 7328289026994901826}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22276,10 +22187,10 @@ GameObject:
   - component: {fileID: 7331044608741849176}
   m_Layer: 0
   m_Name: Floor_Normal_02
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304790532203639150
 GameObject:
@@ -22295,10 +22206,10 @@ GameObject:
   - component: {fileID: 7331212210855388624}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304808887454466402
 GameObject:
@@ -22311,7 +22222,7 @@ GameObject:
   - component: {fileID: 7301828927512197672}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22330,7 +22241,7 @@ GameObject:
   - component: {fileID: 7327621736576228506}
   m_Layer: 0
   m_Name: Roof_Normal_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22410,7 +22321,7 @@ GameObject:
   - component: {fileID: 7299183327673415174}
   m_Layer: 0
   m_Name: Column_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22429,10 +22340,10 @@ GameObject:
   - component: {fileID: 7328423719271894762}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7304836261966941662
 GameObject:
@@ -22464,10 +22375,10 @@ GameObject:
   - component: {fileID: 7331025033858089786}
   m_Layer: 0
   m_Name: Floor_Half_01
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &7327497690406512506
 BoxCollider:

@@ -20,18 +20,14 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         TipsMessage.enabled = false;
-        EventCenter.GetInstance().Regist("InSight", OnInSight);
-        EventCenter.GetInstance().Regist("OutSight", OnOutSight);
-        EventCenter.GetInstance().Regist("EquipmentItem", OnEquipmentItem); ;
-        EventCenter.GetInstance().Regist("SetBullet", OnSetBullet);
     }
 
-    void OnSetBullet(object obj, int param1, int param2)
+    public void OnSetBullet(int param1, int param2)
     {
         GunInfo.text = string.Format("{0}/{1}", param1, param2);
     }
 
-    void OnEquipmentItem(object obj, int param1, int param2)
+    public void OnEquipmentItem(object obj)
     {
         GunIcon.gameObject.SetActive(obj != null);
         GunData gd = ((GameObject)obj).GetComponent<Gun>().GunAttr;
@@ -39,19 +35,22 @@ public class UIManager : MonoBehaviour
         GunName.text = gd.ItemName;
     }
 
-    void OnOutSight(object obj, int param1, int param2)
+    public void OnOutSight()
     {
         m_bShowTips = false;
         TipsMessage.enabled = false;
     }
 
-    void OnInSight(object obj, int param1, int param2)
+    public void OnInSight(object obj)
     {
         m_bShowTips = true;
-        TipsMessage.enabled = true;
-        if(((GameObject)obj).tag == "Gun")
+        if (TipsMessage != null)
         {
-            TipsMessage.text = "Click F To Pick Up";
+            TipsMessage.enabled = true;
+            if (((GameObject)obj).tag == "Gun")
+            {
+                TipsMessage.text = "Click F To Pick Up";
+            }
         }
     }
 

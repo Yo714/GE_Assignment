@@ -5,23 +5,19 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
+    public static ScoreManager instance;
+
     public Text scoreText;
     public Text highScoreText;
 
     private int score = 0;
     private int highScore = 0;
 
-    void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     void Start()
     {
         // Load the high score from player prefs
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
+        highScore = PlayerPrefs.GetInt("HighScore");
         UpdateHighScoreText();
-        scoreText.text = "Score: ";
     }
 
     public void AddScore()

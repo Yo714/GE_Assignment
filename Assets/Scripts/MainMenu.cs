@@ -5,13 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void Play()
+    private void Start()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        UnlockMouse();
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void Quit()
     {
         Application.Quit();
+    }
+
+    void UnlockMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

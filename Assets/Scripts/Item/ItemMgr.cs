@@ -4,37 +4,51 @@ using UnityEngine;
 
 public class ItemMgr : MonoBehaviour
 {
-    public Transform ArmPos;
+    public Transform AimPos;
     public PlayerMgr playerMgr;
     public UIManager UIMgr;
     public Camera EyesCamera = null;
     public Camera SceneCamera = null;
 
+    private MoveControl moveControl;
+
     // Start is called before the first frame update
     void Start()
     {
-        EventCenter.GetInstance().Regist("PickUpItem", OnPickUpItem);
+        if (AimPos == null)
+        {
+            GameObject aimPos = new GameObject("AimPos");
+            aimPos.transform.SetParent(EyesCamera.transform);
+            aimPos.transform.localPosition = new Vector3(0f, -0.08557577f, 0.1786626f);
+            aimPos.transform.localRotation = Quaternion.identity;
+            AimPos = aimPos.transform;
+        }
+
+        UIMgr = FindObjectOfType<UIManager>();
+        moveControl = FindObjectOfType<MoveControl>();
     }
 
-    void OnPickUpItem(object obj, int param1, int param2)
+    public void OnPickUpItem(object obj)
     {
-        if(SceneCamera != null && EyesCamera != null)
+        if (SceneCamera != null && EyesCamera != null)
         {
             SceneCamera.transform.SetParent(EyesCamera.transform);
         }
-        while(ArmPos.childCount > 0)
+
+        while (AimPos.childCount > 0)
         {
-            GameObject t = ArmPos.GetChild(0).gameObject;
+            GameObject t = AimPos.GetChild(0).gameObject;
             if (t != null)
             {
                 DestroyImmediate(t);
             }
         }
+
         GameObject item = (GameObject)obj;
         ItemAttr attr = item.GetComponent<ItemAttr>();
-        if(attr != null)
+        if (attr != null)
         {
-            GameObject equipitem = GameObject.Instantiate(attr.AttrData.ItemEquipmentPrefab, ArmPos);
+            GameObject equipitem = GameObject.Instantiate(attr.AttrData.ItemEquipmentPrefab, AimPos);
 
             Gun g = equipitem.GetComponent<Gun>();
             if (g != null)
@@ -42,15 +56,16 @@ public class ItemMgr : MonoBehaviour
                 g.Init((GunData)attr.AttrData, EyesCamera, SceneCamera, gameObject);
             }
 
-            EventCenter.GetInstance().Trigger("EquipmentItem", equipitem, 0, 0);
+            UIMgr.OnEquipmentItem(equipitem);
+            moveControl.OnEquipmentItem(equipitem);
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Heal")
+        if (collision.gameObject != null && collision.gameObject.tag == "Heal")
         {
-            if(playerMgr.health < 50)
+            if (playerMgr.health < 50)
             {
                 playerMgr.health = playerMgr.health + 10;
             }

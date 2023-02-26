@@ -32,11 +32,14 @@ public class Gun : MonoBehaviour
 
     private LookControl lookcontrol;
 
+    private UIManager UIMgr;
+
     void Awake()
     {
         AnimatorControl = GetComponent<Animator>();
         AudioSource = GetComponent<AudioSource>();
         lookcontrol = FindObjectOfType<LookControl>();
+        UIMgr = FindObjectOfType<UIManager>();
     }
 
     protected void Play(AudioClip clip)
@@ -74,7 +77,7 @@ public class Gun : MonoBehaviour
                 n = GunAttr.CartridgeClip;
             }
             BulletCount = n;
-            EventCenter.GetInstance().Trigger("SetBullet", null, BulletCount, GunAttr.CartridgeClip);
+            UIMgr.OnSetBullet(BulletCount, GunAttr.CartridgeClip);
         }
     }
 
@@ -197,7 +200,7 @@ public class Gun : MonoBehaviour
             {
                 Play(GunAttr.NoBulletSound);
             }
-            EventCenter.GetInstance().Trigger("SetBullet", null, BulletCount, GunAttr.CartridgeClip);
+            UIMgr.OnSetBullet (BulletCount, GunAttr.CartridgeClip);
         }
     }
 

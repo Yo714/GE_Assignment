@@ -61,8 +61,8 @@ public class PlayerMgr : MonoBehaviour
     // Called when the player dies
     void Die()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
         scoreManager.OnPlayerDeath();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 }
