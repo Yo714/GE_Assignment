@@ -15,11 +15,16 @@ public class UIManager : MonoBehaviour
     public Image GunIcon = null;
     public Text GunName = null;
     public Text GunInfo = null;
+    public Text HP = null;
+    public Text EnemyNum = null;
+
+    private PlayerMgr playerMgr;
 
     // Start is called before the first frame update
     void Start()
     {
         TipsMessage.enabled = false;
+        playerMgr = FindObjectOfType<PlayerMgr>();
     }
 
     public void OnSetBullet(int param1, int param2)
@@ -52,6 +57,16 @@ public class UIManager : MonoBehaviour
                 TipsMessage.text = "Click F To Pick Up";
             }
         }
+    }
+
+    public void OnHp(int param1)
+    {
+        HP.text = string.Format("HP:{0}", param1);
+    }
+
+    public void OnEnemyNum(int param1)
+    {
+        EnemyNum.text = string.Format("Enemy Number:{0}", param1);
     }
 
     // Update is called once per frame

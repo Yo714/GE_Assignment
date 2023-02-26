@@ -15,6 +15,7 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
+        scoreText.text = "Score: " + score;
         // Load the high score from player prefs
         highScore = PlayerPrefs.GetInt("HighScore");
         UpdateHighScoreText();
@@ -45,11 +46,11 @@ public class ScoreManager : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = string.Format("Score:{0}", score);
     }
 
     void UpdateHighScoreText()
     {
-        highScoreText.text = "High Score: " + highScore;
+        highScoreText.text = string.Format("High Score:{0}", highScore);
     }
 }
