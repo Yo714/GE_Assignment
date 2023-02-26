@@ -10,12 +10,8 @@ public class Shotgun : Gun
 
     private bool m_bFire = false;
 
-    private UIManager UIMgr;
-
     private void Start()
     {
-        UIMgr = FindObjectOfType<UIManager>();
-
     }
 
     protected override void Reload()

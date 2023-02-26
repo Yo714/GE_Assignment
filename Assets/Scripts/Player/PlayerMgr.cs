@@ -84,6 +84,14 @@ public class PlayerMgr : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("KillZone"))
+        {
+            Die();
+        }
+    }
+
     // Called when the player dies
     void Die()
     {
